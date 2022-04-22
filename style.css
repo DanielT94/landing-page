@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -135,4 +135,40 @@ button {
     text-align: right;
     font-weight: 800;
     font-size: 24px;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 70px 140px 70px 140px;
+    justify-content: space-between;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 600
+}
+
+.sub-action {
+    font-size: 16px;
+}
+
+.left2 {
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.right2 {
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    display: flex;
 }
